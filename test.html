@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    .galery img{
+      width: 100px;
+      height: 100px;
+      margin: 100px;
+      border: 1px solid black;
+    }
+    .open-img img{
+      opacity: 1;
+      margin-top: 100px;
+      width: 500px;
+      height: 500px;
+    }
+    .open-img{
+      position: absolute;
+      opacity: 0;
+      z-index: 1;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      text-align: center;
+
+      border: 1px solid black;
+    }
+    .ajg{
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+<div class="galery">
+<img src="gajah.png" alt="">
+<img src="orang.png" alt="">
+<img src="semut.png" alt="">
+<img src="gajah.png" alt="">
+</div>
+<p class="ajg">woe ajg ke click lah!!</p>
+<div class="open-img">
+<img src="gajah.png" alt="">
+</div>
+</body>
+<script src="test.js"></script>
+</html>
